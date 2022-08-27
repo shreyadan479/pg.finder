@@ -1,0 +1,111 @@
+.mainheader{
+&__hero_header{
+    display:flex;      
+}
+&__header_logo{
+   width:5%;
+   color:#1AC831;                         
+   font-size:34px;
+}
+&__header_text{
+    width:80%;
+    font-size:14px;
+    text-align:left;
+   
+}
+&__header_button{
+     width:15%;
+     text-align:right;     
+}
+&__popup_btn{
+   color:white;
+   background-color:#1AC831;
+   outline:none;
+   font-size: 14px;
+   border-style:none;
+   padding:10px 15px;
+   border-radius:25px;
+}
+&__popup_btn:hover{
+   box-shadow:1px 1px 5px black;
+}
+&__popup_content{
+   margin:0px;
+   padding:0px;
+   text-align:center;
+   padding-left:39px;
+   padding-top:10px;
+}
+&__popup_whatsapp, &__popup_mbl{
+   padding-bottom:10px;
+}
+&__popup_whatsapp a, &__popup_mbl a{
+    text-decoration:none;
+    font-size:18px;
+    color:grey;
+}
+&__popup_mbl, &__popup_whatsapp{
+    text-align:left;
+    
+}
+&__popup_content h3{
+     text-transform:capitalize;
+     font-size:20px;
+     font-weight:lighter;
+}
+
+&__popup_icon{
+    padding-right:10px;
+}
+@media all and (max-width:600px){
+&__header_text{
+font-size:9px;
+padding-left:10px;
+padding-top: 6px;
+width:auto;
+}
+&__header_logo{
+width:auto;
+color:#1AC831;                         
+font-size:32px;
+padding-top:10px;
+}
+&__header_button{
+width:auto;
+text-align:right;
+padding-top:10px;
+}
+&__popup_btn{
+color:white;
+background-color:#1AC831;
+outline:none;
+font-size: 10px;
+border-style:none;
+padding:5px 10px;
+border-radius:25px;
+}
+}
+@media (max-width:768px) and (min-width:601px){
+&__header_text{
+padding-left:15px;
+font-size:12px;
+}
+}
+@media all and (max-width:355px){
+&__header_text{
+font-size:9px;
+padding-left:10px;
+padding-top: 6px;
+width:auto;
+}
+&__header_logo{
+width:auto;
+color:#1AC831;                         
+font-size:32px;
+padding-top:15px;
+}
+&__header_button{
+width:auto;
+text-align:right;
+padding-top:15px;
+}}}

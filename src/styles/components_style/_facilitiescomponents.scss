@@ -1,0 +1,57 @@
+.facilitiescomponent{
+&__facilities_checkbox1 input {
+    position: absolute;
+    opacity:0;
+    cursor:pointer;
+    height:0;
+    width:0;
+}
+
+&__facilities_checkmark {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    background-color: grey;
+}
+&__facilities_checkbox1:hover input ~ &__facilities_checkmark {
+    background-color: #ccc;
+    border:1px solid green;
+   
+}
+&__facilities_checkbox1 input:checked ~ &__facilities_checkmark {
+    background-color: green;
+}
+&__facilities_checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+&__facilities_checkbox1 input:checked ~ &__facilities_checkmark:after {
+display: block;
+}
+&__facilities_checkbox1 &__facilities_checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); 
+}  
+&__facilities_label{
+    font-size:12px; 
+    text-transform: capitalize;
+    padding: 6px 10px 0px 40px;    
+}
+&__facilities_check{
+    display:flex;
+    padding:10px 0px 30px 0px;
+}
+&__facilities_checkbox{
+    width:33.3%;   
+     
+}
+}

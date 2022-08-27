@@ -1,0 +1,45 @@
+
+.ReactTags__selected{
+   display: flex;
+   flex-wrap: wrap;
+}
+  .tag-wrapper{
+      opacity: 1;
+      cursor: pointer!important;
+      border:1px solid white;
+      padding:4px 0px 5px 10px;
+      background-color: green;
+      color: white;
+      border:none;
+      border-radius: 25px;
+      margin:0px 10px 10px 0px;
+      text-transform: uppercase;
+      font-size: 11px;
+  }
+  .ReactTags__remove{
+    padding:0px 5px;
+    font-size: 14px;
+  }
+  .ReactTags__remove:hover{
+    color:red;
+  }
+  .ReactTags__tagInput{
+    width:100%;
+  }
+  .ReactTags__tagInputField{
+               margin-top:20px;
+               color: white;
+               background: rgba(0,0,0,0.3);
+               padding:10px 0px;
+               outline: none;
+               text-align: left;
+               width: 100%;
+               border:1px solid rgba(147,147,147,0.3);
+  }
+  .ReactTags__tagInputField:focus{
+    outline: rgba(147, 147, 147, 0.5) solid 2px;
+  }
+  .ReactTags__tagInputField::placeholder {
+    color:white;
+    opacity: 0.3; 
+  }

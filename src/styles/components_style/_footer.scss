@@ -1,0 +1,27 @@
+.footer{
+&__footer_wrapper{
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align:left;
+    font-family: sans-serif;
+    
+}
+&__footer_wrapper h5{
+     padding:10px;
+     font-weight:lighter;
+}
+&__footer_net{
+    color:red;
+    font-weight:bold;
+}
+&__footer_art{
+    color:#33A0CE;
+    font-weight:bold;
+}
+@media all and (max-width:768px){
+    &__footer_wrap h5{
+        text-align: center;
+    }
+}
+}

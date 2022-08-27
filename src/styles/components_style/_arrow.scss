@@ -1,0 +1,13 @@
+.arrow{
+&__arrows_wrapper{
+    display:flex;
+    font-size:42px;
+    justify-content:space-between;
+}
+&__arrow_left{
+    color:white;
+}
+&__arrow_right{
+ color:green;
+}
+}

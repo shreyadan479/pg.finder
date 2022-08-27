@@ -1,0 +1,51 @@
+.address{
+&__address_header{ 
+  color: green;
+  font-weight: bolder;
+  font-size:26px;
+  font-family:abel;
+  text-transform: uppercase;
+  
+}
+&__address_content_details{
+    padding-top:30px;
+    padding-bottom:20px;
+}
+&__address_name{
+    border:1px solid rgba(147,147,147,0.3);
+    height:100px;
+    padding:5px;
+    background:rgba(0,0,0,0.6);
+}
+&__address_lat, &__address_long{
+    padding:5px 0px;
+   }
+&__address_content{
+    color:white;
+    font-family: sans-serif;
+} 
+&__address_content textarea{
+    width:95.5%;
+    color:white;
+    font-size:14px;
+}
+&__address_content textarea:focus{
+    outline:rgba(147,147,147,0.3) solid 2px;
+}
+&__address_content h3{
+    font-size:12px;
+    padding:5px 0px;
+}
+&__address_content input{
+ color:white;
+ padding:5px;
+ width:95%;
+ background:rgba(0,0,0,0.3);
+ border:1px solid rgba(147,147,147,0.3);
+}
+&__address_content input:focus{
+ outline:rgba(147,147,147,0.3) solid 2px;
+}
+
+
+}

@@ -1,0 +1,27 @@
+.categories{
+&__categories_content{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+&__categories_img{
+    padding-right: 10px;
+    font-size: 30px;
+    color:grey;
+}
+&__categories_text{
+    margin: 0px;
+    text-align: left;
+    font-size: 14px;
+    color:grey;
+    padding-left: 10px;
+    padding-top:6px;
+}
+&__categories_label{
+    display:flex;
+    flex-direction:row;
+    }
+}

@@ -1,0 +1,26 @@
+.forms{
+&__forms_head{
+    text-transform:capitalize;
+    padding-bottom:10px; 
+    font-weight:lighter;
+    font-size:12px;
+}
+&__forms_name{ 
+font-weight:lighter;
+padding:5px 10px;
+border:1px solid rgba(147,147,147,0.2);
+background:rgba(0,0,0,0.4);
+font-size:14px; 
+text-align: left;
+}
+&__forms_input{
+    padding-bottom: 20px;
+}
+&__forms_input input{
+width:93%;
+color:white;    
+}
+&__forms_input input:focus{
+outline:rgba(147,147,147,0.3) solid 2px;
+}     
+}

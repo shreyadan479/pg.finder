@@ -1,0 +1,56 @@
+.foodbutton{
+&__foodbutton_wrap{
+    display:flex;
+    position:absolute;
+    margin-top:-4%;
+    margin-left:14%;
+}
+&__foodbutton_btns{
+     padding:10px;
+}
+&__foodbutton_btn{
+      color:white;
+      background-color: rgba(0, 0, 0, 0.3);
+      outline:none;
+      font-size:8px!important;
+      border-style:none;
+      padding:5px 10px;
+      border-radius: 25px;
+      border:1px solid white;      
+}
+@media all and (max-width: 768px) {
+  &__foodbutton_wrap{
+   position:absolute;
+   margin-top:-8%;
+   margin-left:68%;
+}
+}
+@media all and (max-width:425px){
+  &__foodbutton_wrap{
+  position:absolute;
+  margin-top:-11%;
+  margin-left:43%;
+}
+}
+@media all and (max-width:375px){
+ &__foodbutton_wrap{
+  position:absolute;
+  margin-top:-13%;
+  margin-left:35%;
+}
+}  
+@media all and (max-width:320px){
+ &__foodbutton_wrap{
+  position:absolute;
+  margin-top:-16%;
+  margin-left:24%;
+}
+}  
+@media (max-width:1024px) and (min-width:769px){
+ &__foodbutton_wrap{
+  position:absolute;
+  margin-top:-5%;
+  margin-left:9%;
+}
+}
+}

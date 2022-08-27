@@ -1,0 +1,33 @@
+.foodtype{
+&__foodtype_header{
+    padding-bottom: 30px;
+    color: green;
+    font-weight: bolder;
+    font-size:26px;
+    font-family: abel;
+    text-transform: uppercase;
+    
+}
+&__foodtype_content{
+    color:white;
+    font-family: sans-serif;
+} 
+&__foodtype_wrapper{
+    display:flex;
+    padding:10px 0px 10px 0px;
+    flex-wrap:wrap;
+}
+&__foodtype_text{
+    margin-right: 4%;
+    margin-bottom: 13px;
+}
+&__foodtype_tags{
+    margin-top:10px;
+}
+&__foodtype_content h3{
+    font-size:12px;
+    padding:5px 0px;
+    text-transform:capitalize;
+    font-weight: lighter;
+} 
+}

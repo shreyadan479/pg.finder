@@ -1,0 +1,29 @@
+.bgimg{
+&__bgimg_image{            
+    height:250px;
+    background: linear-gradient(
+      rgba(254, 254, 254, 0.1),
+       rgba(0, 0, 0, 0.7)),
+      url(../assets/images/bgimg.png);
+   }
+ @media all and (max-width:768px){
+    &__bgimg_image{
+    height:250px;
+ }
+ }
+ @media all and (max-width:425px){
+    &__bgimg_image{
+    height:250px;
+}
+}  
+@media all and (max-width:375px){
+   &__bgimg_image{
+   height:250px;
+}
+}  
+@media all and (max-width:320px){
+   &__bgimg_image{
+   height:250px;
+}
+}  
+}

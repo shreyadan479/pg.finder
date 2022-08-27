@@ -1,0 +1,22 @@
+.home{
+&__home_header{
+    color: green;
+    
+}
+&__home_header h2{
+  font-weight: lighter;
+  font-size:20px;
+  font-family: sans-serif;
+}
+&__home_header h1{
+  text-transform: capitalize;
+  padding-bottom: 30px;
+  padding-top:5px;
+  font-weight: bolder;
+  font-size: 44px;
+}     
+&__home_content{
+  color:white;
+  font-family: sans-serif;
+}     
+}

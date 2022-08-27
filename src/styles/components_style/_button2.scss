@@ -1,0 +1,67 @@
+.foodtypebtn{
+&__foodtypebtn_wrap{
+    display:flex;
+    position:absolute;
+    margin-top:-7%;
+    margin-left:18%;
+}
+ &__foodtypebtn_type{
+     padding:10px;
+}
+ &__foodtypebtn_veg{
+      color:white;
+      background-color:rgba(0, 0, 0, 0.3);
+      outline:none;
+      text-transform: uppercase;
+      font-size:8px!important;
+      border:1px solid white;
+      padding:5px 10px;
+      border-radius: 25px;
+      
+}
+ &__foodtypebtn_nonveg{
+      color:white;
+      background-color:rgba(0, 0, 0, 0.3);
+      outline:none;
+      font-size:8px!important;
+      border:1px solid white;
+      padding:5px 10px;
+      text-transform: uppercase;
+      border-radius: 25px;
+}
+@media all and (max-width: 768px) {
+     &__foodtypebtn_wrap{
+      position:absolute;
+      margin-top:-13%;
+      margin-left:75%;
+    }
+}
+@media all and (max-width:425px){
+     &__foodtypebtn_wrap{
+      position:absolute;
+      margin-top:-19%;
+      margin-left:56%;
+    }
+}
+@media all and (max-width:375px){
+     &__foodtypebtn_wrap{
+      position:absolute;
+      margin-top:-22%;
+      margin-left:50%;
+    }
+}  
+@media all and (max-width:320px){
+      &__foodtypebtn_wrap{
+      position:absolute;
+      margin-top:-26%;
+      margin-left:42%;
+    }
+}  
+@media (max-width:1024px) and (min-width:769px){
+      &__foodtypebtn_wrap{
+      position:absolute;
+      margin-top:-8%;
+      margin-left:15%;
+    }
+}
+}

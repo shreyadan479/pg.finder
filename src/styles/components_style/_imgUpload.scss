@@ -1,0 +1,28 @@
+.fileContainer{
+    background: none!important;
+    padding:0px!important;
+    margin:0px!important;
+}
+.fileContainer .uploadIcon{
+    display: none;
+}
+.fileContainer p{
+    display: none;
+}
+.chooseFileButton{
+    background: none!important;
+    border:1px solid white!important;
+}
+.chooseFileButton:hover{
+    background: green!important;
+    border:1px solid green!important;
+}
+.fileContainer .deleteImage{
+    top: -15px!important;
+    right: -15px!important;
+    background: green!important;
+    font-size: 15px!important;
+}
+.fileContainer .uploadPictureContainer{
+    background: none!important;
+}

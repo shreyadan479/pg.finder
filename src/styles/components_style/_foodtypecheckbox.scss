@@ -1,0 +1,33 @@
+.checkbox{
+
+&__Checkbox_Container input{
+    display:none;
+    opacity: 0;
+    cursor: pointer;
+    margin:5px 5px;
+  }
+  
+  &__checkbox_checkmark {
+      height: 25px;
+      padding: 4px 10px 0px 10px;
+      background-color:rgba(0,0,0,0.3);
+      border-radius: 50px;
+      cursor:pointer;
+      border:0.8px solid white;
+  }
+  
+  &__Checkbox_Container:hover input ~ &__checkbox_checkmark {
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  &__Checkbox_Container input:checked ~ &__checkbox_checkmark {
+    background-color:green;
+    border:0.8px solid green;
+  }
+  &__checkbox_text{
+      text-transform: uppercase;
+      padding:5px 10px 5px 10px;
+      color:white;
+      font-size: 10px;
+  }
+}

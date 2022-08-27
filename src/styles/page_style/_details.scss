@@ -1,0 +1,137 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.mainpage{
+*{
+    padding:0px;
+    margin:0px;
+}
+
+&__main_header{
+    padding:10px 20px;
+    margin:0px;
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    font-family: Arial;
+    box-shadow: 0 2px 8px -6px black;
+}
+&__main_container{
+       display:flex;
+       font-family:sans-serif;       
+}
+&__main_container p{
+      font-size: 14px;
+      overflow: hidden;
+}
+&__column_left{
+        width:33%;
+        padding:0px 20px;
+        padding-top:10px;
+        margin:10px 0px;
+        border-right:1px solid rgba(0,0,0,0.1);
+}
+&__column_center{
+        width:33%;
+        margin:10px 0px;
+        padding:0px 20px;
+        padding-top:10px;
+         border-right:1px solid rgba(0,0,0,0.1);
+}
+&__column_right{
+        width:33%;
+        padding:0px 20px;
+        padding-top:10px;
+        margin:10px 0px;
+}
+&__main_bgimg{
+   padding-top:0px;
+   padding-bottom:20px;
+   border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+&__column_cen_categories h2{
+    padding-bottom: 0px;
+}
+&__column_cen_categories h3{
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+ &__categories_bottom{
+    padding-bottom: 10px;
+}
+&__categories_btm{
+    padding-bottom: 10px;
+}
+&__categories_botm{
+    padding-bottom: 10px;
+}
+&__main_container h2{
+       text-transform:uppercase;
+       font-size:16px;
+       font-weight: bold;
+       padding-bottom:20px;
+}
+&__main_container h3{
+       text-transform:capitalize;
+       font-size:14px;
+       font-weight: lighter;
+       
+}
+
+&__column_right li{
+    list-style:none;
+}
+&__column_right  a{
+     text-decoration:none;
+   
+}
+&__description{
+     border-bottom:1px solid rgba(0,0,0,0.1);
+}
+&__col_right_pg{
+    padding-bottom: 10px;
+}
+&__description{
+    margin-top: 10px;
+}
+&__col_right_pgs{
+    margin-top:10px;
+}
+@media all and (max-width: 768px) {
+  &__main_container {
+    flex-direction: column;
+  }
+    &__column_left{
+        width: auto;
+        border-right:none;
+        margin: 0px 20px;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    &__column_center{
+        width: auto;
+        margin: 0px 20px;
+    padding: 0px;
+    padding-top: 10px;
+        border-right:none;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    &__column_right{
+        width: auto;
+        margin: 0px;
+          }
+    
+    &__main_header{
+        box-shadow:none;
+        border-bottom:2px solid rgba(0,0,0,0.2);
+    }
+    &__main_container h2{
+            font-size:13px;
+        }
+ &__main_container h3{
+         font-size:12px;
+            
+ }
+}
+}

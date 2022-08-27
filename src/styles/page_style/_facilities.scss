@@ -1,0 +1,36 @@
+.facilities{
+&__facilities_header{
+    padding-bottom: 30px;
+    color: green;
+    font-weight: bolder;
+    font-size:26px;
+    font-family: abel;
+    text-transform: uppercase;
+}
+&__facilities_textarea{
+    padding-top:5px;
+}
+&__facilities_content{
+    color:white;
+    font-family: sans-serif;
+} 
+&__facilities_content h2{
+    padding-bottom:30px;
+}
+&__facilities_content h3{
+    font-size:12px;
+    padding:5px 0px;
+    text-transform:capitalize;
+}
+&__facilities_content textarea{
+    width:96%;
+    height:60px;
+    padding:5px;
+    background:rgba(0,0,0,0.4);
+    color:white;
+    outline: none;
+}
+&__facilities_content textarea:focus{
+    outline:rgba(147,147,147,0.3) solid 3px;
+}
+}

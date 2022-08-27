@@ -1,0 +1,39 @@
+.room{
+&__table_wrapper table{
+    width: 100%;
+}    
+&__header{
+    padding:10px 0px;
+    font-size:12px;
+    text-transform:capitalize;
+}
+&__header_left{
+    padding:10px 0px;
+    text-align: left;
+}
+&__header_right{
+    padding:10px 0px;
+    text-align:right;
+    padding-left:160px;
+}
+&__data_right{
+    text-align:right;
+    padding:10px 0px;
+    
+}
+&__data_left{
+    padding:10px 0px;
+   
+}
+&__data_right input{
+    background:rgba(0,0,0,0.3);
+    text-align:right;
+    border:1px solid rgba(147,147,147,0.2);
+    padding:5px 0px;
+    color:white;
+    outline: none;
+}
+&__data_right input:focus{
+    outline:rgba(147,147,147,0.3) solid 2px;
+}
+}

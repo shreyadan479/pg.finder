@@ -1,0 +1,61 @@
+{
+  "name": "pg-finder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "classnames": "^2.2.6",
+    "google-map-react": "^1.1.4",
+    "google-maps-react": "^2.0.2",
+    "node-sass": "^4.11.0",
+    "open-street-map-reverse-geo-node-client": "^1.0.5",
+    "react": "^16.8.6",
+    "react-dnd": "^7.4.5",
+    "react-dnd-html5-backend": "^7.4.4",
+    "react-dom": "^16.8.6",
+    "react-flip-move": "^3.0.3",
+    "react-geocode": "^0.1.2",
+    "react-geolocated": "^2.4.1",
+    "react-geolocation": "^1.0.4",
+    "react-google-location": "^1.2.2",
+    "react-google-maps": "^9.4.5",
+    "react-icons": "^3.5.0",
+    "react-image-preview": "^0.1.0",
+    "react-images-upload": "^1.2.6",
+    "react-native": "^0.59.5",
+    "react-native-geocoding": "^0.3.0",
+    "react-router-dom": "^5.0.0",
+    "react-router-sitemap": "^1.2.0",
+    "react-scripts": "2.1.8",
+    "react-tag-input": "^6.4.0",
+    "reactjs-popup": "^1.3.2",
+    "reverse-geocode": "^1.3.0",
+    "reverse-geocoding": "^3.0.1",
+    "yarn": "^1.15.2",
+    "yarn-install": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sitemap": "./node_modules/.bin/babel-node ./src/sitemap-generator.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}

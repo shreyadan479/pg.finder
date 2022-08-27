@@ -1,0 +1,14 @@
+.form{
+&__form_header{ 
+    color: green;
+    font-weight: bolder;
+    font-size:26px;
+    font-family: abel;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+&__form_content{
+    color:white;
+    font-family: sans-serif;
+} 
+}
